@@ -16,7 +16,11 @@ app.use(
 );
 
 // MongoDB URI (Replace with your actual MongoDB URI)
-const mongoURI = "mongodb://localhost:27017/mydatabase"; // Example URI
+// const mongoURI = "mongodb://localhost:27017/mydatabase"; // Example URI
+
+// uri
+const mongoURI =
+  "mongodb+srv://siddiquiadab797:fPcgcbTrUTIefSeA@cluster0.6xj9a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/mydatabase";
 
 // Connect to MongoDB
 mongoose
