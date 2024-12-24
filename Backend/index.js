@@ -33,6 +33,6 @@ app.get("/", (req, res) => {
 });
 app.use("/api", messageRoutes);
 
-app.listen(3001, "0.0.0.0", () => {
+app.listen(3002, "0.0.0.0", () => {
   console.log("Server is running on port 3001");
 });
